@@ -21,6 +21,8 @@ import useSound from "use-sound";
 import elise from "./elise.png"
 import godfather from "./godfather.png"
 import clocks from "./clocks.png"
+import braveheart from "./braveheart.png"
+import bbking from "./bbking.png"
 
 
 
@@ -32,9 +34,7 @@ function Sheet({ sheet }) {
   )
 }
 
-const NextButton = () => {
-  return <button>Next Song!</button>
-}
+
 
 
 function App() {
@@ -42,7 +42,7 @@ function App() {
   const [state, setState] = useState(false)
   const [nextSong, setNextSong] = useState(0)
 
-  const sheetArray = [elise, godfather, clocks]
+  const sheetArray = [clocks, elise, godfather, braveheart, bbking]
   
   useEffect(() => {
     window.addEventListener("keydown", handleKeyPress);
@@ -183,8 +183,8 @@ function App() {
     <div className="container">
       {state ? <Sheet sheet={sheetArray[nextSong]} /> : null}
       {state ? <button onClick={() => {
-        if (nextSong > 1) {
-          alert("That's it, no more songs");
+        if (nextSong > 3) {
+          alert("That's it, no more songs :)");
           setTimeout(() => {
             setNextSong(0)
           }, 1000)
