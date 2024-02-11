@@ -31,7 +31,7 @@ function Sheet({ sheet }) {
   
 
   return (
-    <img src={sheet} className="note-image" width="1000px" height="250px"></img>
+    <img src={sheet} className="note-image"></img>
   )
 }
 
