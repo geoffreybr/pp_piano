@@ -1,7 +1,7 @@
 # pp_piano
  personal project
 
-It's a piano app with six songs, ranging from Coldlay to "Für Elise".
+It's a piano app with sheet notes for songs ranging from Coldlay to "Für Elise".
 
 To run this app in your browser you have to do couple of things. Hope these instructions provided by <a href="https://gemini.google.com/app" target="_blank">Gemini</a> will help you create a developement server. 
 
