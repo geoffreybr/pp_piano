@@ -16,8 +16,7 @@ To run this app in your browser you have to do couple of things. Hope these inst
 
 **Downloading a Project from GitHub:**
 
-- https://github.com/ssveto/pp_piano
-**Download the ZIP File:** Under the repository's name, click on the green "Code" button, then select "Download ZIP."
+<a href="https://github.com/ssveto/pp_piano/archive/refs/heads/main.zip"><b>**Download the ZIP File:**</b></a> Under the repository's name, click on the green "Code" button, then select "Download ZIP."
 
 **Extracting the Downloaded Project:**
 
