@@ -91,12 +91,15 @@ export default function PianoInstrument({ onPlay }) {
               classes.push('active');
             }
 
+            const key = Object.keys(keyToNote).find((k) => note === keyToNote[k]);
             return (
                 <div
                     key={note}
                     className={classes.join(' ')}
                     onClick={() => playNote(note)}
-                />
+                >
+                  <span>{key}</span>
+                </div>
             );
           })
       }
